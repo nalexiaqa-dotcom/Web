@@ -2,7 +2,7 @@
 nav {
     display: flex;
     justify-content: center; /* This centers the items along the main axis */
-    background-color: #555;
+    background-color: #FFEBFB;
     padding: 10px;
 }
 
@@ -12,14 +12,20 @@ nav a {
     padding: 10px 20px; /* Adds space around the links */
 }
 body {
-    font-family: sans-serif;
+    font-family: Cursive;
     margin: 0;
     background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #FAF8BB;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    
+
     padding: 10px;
     text-align: center;
 }
@@ -30,7 +36,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: pink;
     margin-bottom: 20px; /* Adds space between sections */
     padding: 20px;
 }
@@ -41,4 +47,3 @@ section {
         align-items: center;    /* Centers the items on the cross-axis */
     }
 }
-
